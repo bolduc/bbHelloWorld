@@ -8,6 +8,7 @@ MAINTAINER KBase Developer
 
 # RUN apt-get update
 
+RUN apt-get -y update && apt-get -y install python-biopython
 
 # -----------------------------------------
 
